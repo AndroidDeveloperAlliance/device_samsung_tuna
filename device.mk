@@ -56,7 +56,26 @@ PRODUCT_PACKAGES += \
 	audio.usb.default
 
 PRODUCT_COPY_FILES += \
-	device/samsung/tuna/audio/audio_policy.conf:system/etc/audio_policy.conf
+	device/samsung/tuna/audio/audio_policy.conf:system/etc/audio_policy.conf \
+        device/samsung/tuna/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
+        device/samsung/tuna/modules/auth_rpcgss.ko:system/modules/auth_rpcgss.ko \
+        device/samsung/tuna/modules/cifs.ko:system/modules/cifs.ko \
+        device/samsung/tuna/modules/exportfs.ko:system/modules/exportfs.ko \
+        device/samsung/tuna/modules/lockd.ko:system/modules/lockd.ko \
+        device/samsung/tuna/modules/logger.ko:system/modules/logger.ko \
+        device/samsung/tuna/modules/md4.ko:system/modules/md4.ko \
+        device/samsung/tuna/modules/nfs.ko:system/modules/nfs.ko \
+        device/samsung/tuna/modules/nfsd.ko:system/modules/nfsd.ko \
+        device/samsung/tuna/modules/ntfs.ko:system/modules/ntfs.ko \
+        device/samsung/tuna/modules/rpmsg_client_sample.ko:system/modules/rpmsg_client_sample.ko \
+        device/samsung/tuna/modules/rpmsg_server_sample.ko:system/modules/rpmsg_server_sample.ko \
+        device/samsung/tuna/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko \
+        device/samsung/tuna/modules/snd-hwdep.ko:system/modules/snd-hwdep.ko \
+        device/samsung/tuna/modules/snd-rawmidi.ko:system/modules/snd-rawmidi.ko \
+        device/samsung/tuna/modules/snd-usb-audio.ko:system/modules/snd-usb-audio.ko \
+        device/samsung/tuna/modules/snd-usbmidi-lib.ko:system/modules/snd-usbmidi-lib.ko \
+        device/samsung/tuna/modules/sunrpc.ko:system/modules/sunrpc.ko \
+        device/samsung/tuna/modules/tun.ko:system/modules/tun.ko
 
 
 PRODUCT_PACKAGES += \
