@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
         device/samsung/tuna/modules/cifs.ko:system/modules/cifs.ko \
         device/samsung/tuna/modules/exportfs.ko:system/modules/exportfs.ko \
         device/samsung/tuna/modules/lockd.ko:system/modules/lockd.ko \
-        device/samsung/tuna/modules/logger.ko:system/modules/logger.ko \
         device/samsung/tuna/modules/md4.ko:system/modules/md4.ko \
         device/samsung/tuna/modules/nfs.ko:system/modules/nfs.ko \
         device/samsung/tuna/modules/nfsd.ko:system/modules/nfsd.ko \
